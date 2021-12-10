@@ -121,10 +121,12 @@ footer {
   line-height: 1.19;
   text-align: left;
   text-decoration: none;
+  outline: none;
 }
 
 .header-studio {
   color: var(--full-black);
+  outline: none;
 }
 
 .footer-studio {
@@ -166,6 +168,7 @@ footer {
   .team-socions-group
   .team-socicons:focus {
   background-color: var(--accent-color);
+  outline: none;
 }
 address {
   width: 231px;
@@ -218,6 +221,7 @@ address {
 .nav-menu .link:hover,
 .nav-menu .link:focus {
   color: var(--accent-color);
+  outline: none;
 }
 .contacts-link {
   text-decoration: none;
@@ -243,6 +247,7 @@ address {
 .contacts-link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
+  outline: none;
 }
 .nav-menu .current {
   color: var(--accent-color);
@@ -391,6 +396,7 @@ address {
 .team-socicons:focus {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
+  outline: none;
 }
 
 .team h2 {
@@ -469,6 +475,7 @@ address {
 .clients-border-link:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
+  outline: none;
 }
 
 .clients-border:not(:last-child) {
@@ -499,6 +506,7 @@ address {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: none;
 }
 
 /* top filters */
