@@ -19,6 +19,7 @@
   --background-ourteam-button: #f5f4fa;
   --color-padding-bottom: #ececec;
   --color-border-items: #eeeeee;
+  --color-for-icons: #afb1b8;
 }
 
 body {
@@ -86,9 +87,6 @@ footer {
 
   margin-left: auto;
   margin-right: auto;
-}
-.list {
-  list-style: none;
 }
 
 /* main nav */
@@ -375,24 +373,26 @@ address {
   display: flex;
   padding: 16px 32px 0 32px;
 }
+.team-socialnetwork li:not(:last-child) {
+  margin-right: 10px;
+}
 .team-socicons {
   width: 44px;
   height: 44px;
   background-color: var(--primary-white-color);
-  fill: var(--primary-text-color);
+  fill: var(--color-for-icons);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
 }
+
 .team-socicons:hover,
 .team-socicons:focus {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
 }
-.team-socicons:not(:last-child) {
-  margin-right: 10px;
-}
+
 .team h2 {
   color: var(--title-text-color);
   font-weight: bold;
@@ -434,6 +434,14 @@ address {
   justify-content: space-between;
 }
 
+.team-socialnetwork li {
+  display: flex;
+  list-style: none;
+}
+.team-socicons:not(:last-child) {
+  margin-right: 10px;
+}
+
 /* section5 - Постоянные кликнты */
 .clients {
   list-style: none;
@@ -455,7 +463,7 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--primary-text-color);
+  fill: var(--color-for-icons);
 }
 .clients-border-link:hover,
 .clients-border-link:focus {
